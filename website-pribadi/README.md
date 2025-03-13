@@ -138,3 +138,24 @@ Layout digunakan untuk menyediakan struktur yang konsisten di seluruh halaman, s
 <img src="assets/images/3.7.3.png">
 
 
+## Praktikum 4: Membuat Halaman Proyek dengan Grid Responsif 
+
+Halaman proyek akan menampilkan da ar proyek dalam bentuk grid yang responsif. 
+
+**Langkah-langkah:**
+
+1. Buat folder di public/images. Kemudian tambahkan dua image, lalu rename dengan nama project1.png dan project2.png
+
+2. Modifikasi file app/projects/page.tsx: 
+    Tambahkan import next/image dan beberapa image yang telah ditambahkan sebelumnya
+    <img src="assets/images/4.2.1.png">
+
+    Buat card project item sebagai berikut:
+    <img src="assets/images/4.2.2.png">
+
+    Modifikasi komponen project sebagai berikut:
+    <img src="assets/images/4.2.3.png">
+
+
+3. Simpan file dan buka h p://localhost:3000/projects di browser. Anda akan melihat daftar proyek dalam grid yang responsif.
+<img src="assets/images/4.3.png">
