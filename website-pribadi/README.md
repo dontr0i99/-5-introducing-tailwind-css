@@ -159,3 +159,38 @@ Halaman proyek akan menampilkan da ar proyek dalam bentuk grid yang responsif.
 
 3. Simpan file dan buka h p://localhost:3000/projects di browser. Anda akan melihat daftar proyek dalam grid yang responsif.
 <img src="assets/images/4.3.png">
+
+
+## Tugas
+
+1. Modifikasi halaman "Esai" dengan Grid daftar artikel yang telah ditulis. 
+2. Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik.
+
+### Kode
+
+#### Modifikasi pada file components/Navbar.tsx
+<img src="assets/images/navbar.png">
+
+#### Modifikasi pada file components/Footer.tsx
+<img src="assets/images/footer.png">
+
+#### Modifikasi pada file app/page.tsx
+<img src="assets/images/home.code.png">
+
+#### Modifikasi pada file app/projects/page.tsx
+<img src="assets/images/proyek.code.png">
+
+#### Modifikasi pada file app/essays/page.tsx
+<img src="assets/images/esai.code.png">
+
+
+### Hasil Output
+
+#### Halaman Tentang Saya
+<img src="assets/images/home.png">
+
+#### Halaman Proyek
+<img src="assets/images/proyek.png">
+
+#### Halaman Esai
+<img src="assets/images/esai.png">

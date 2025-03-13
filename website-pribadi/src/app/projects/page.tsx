@@ -22,16 +22,12 @@ type ProjectItemProps = {
 
 function ProjectItem({ name, url, urlDisplay, imageSrc }: ProjectItemProps) {
   return (
-    <li>
-      <a href={url}>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
-          <Image className="w-full" src={imageSrc} alt={name}></Image>
-          <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">{name}</div>
-          </div>
-          <div className="px-6 pb-4">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{urlDisplay}</span>
-          </div>
+    <li className="bg-white rounded-2xl shadow-lg overflow-hidden transform transition hover:scale-105 hover:shadow-2xl">
+      <a href={url} className="block">
+        <Image className="w-full h-full object-cover" src={imageSrc} alt={name}></Image>
+        <div className="p-6">
+          <h3 className="font-bold text-xl text-indigo-700">{name}</h3>
+          <p className="mt-2 text-indigo-500 font-medium">{urlDisplay}</p>
         </div>
       </a>
     </li>
@@ -40,17 +36,19 @@ function ProjectItem({ name, url, urlDisplay, imageSrc }: ProjectItemProps) {
 
 export default function Projects() {
   return (
-    <div className="mt-16 px-8">
-      <header>
-        <h1 className="font-bold text-4xl text-zinc-800">Proyek Saya</h1>
-        <p className="text-base mt-6 text-zinc-600">Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
+    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-indigo-600 flex flex-col items-center px-8 py-12 text-white">
+      <header className="text-center">
+        <h1 className="font-extrabold text-5xl">Proyek Saya</h1>
+        <p className="text-lg mt-4 max-w-2xl">
+          Berikut adalah beberapa proyek yang telah saya kerjakan selama perkuliahan di Politeknik Negeri Malang.
+        </p>
       </header>
-      <div className="mt-16">
-        <h2 className="text-2xl">Aplikasi</h2>
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16 mt-8">
-          <ProjectItem name="Pinjam.in" url="https://example.com" urlDisplay="App Store" imageSrc={image1}></ProjectItem>
-          <ProjectItem name="SISBAN 07" url="https://example.com" urlDisplay="Play Store" imageSrc={image2}></ProjectItem>
-          <ProjectItem name="Glow Guide" url="https://example.com" urlDisplay="Play Store" imageSrc={image3}></ProjectItem>
+      <div className="mt-12 w-full max-w-6xl">
+        <h2 className="text-3xl font-bold text-center text-white mb-8">Aplikasi</h2>
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <ProjectItem name="Pinjam.in" url="https://github.com/Danni4421/pinjam.in" urlDisplay="App Store" imageSrc={image1}></ProjectItem>
+          <ProjectItem name="SISBAN 07" url="https://github.com/Danni4421/sisban" urlDisplay="Play Store" imageSrc={image2}></ProjectItem>
+          <ProjectItem name="Glow Guide" url="https://drive.google.com/file/d/19I0Gz-VB1OGtpZootoAzxa-7EzU4_Tfz/view?usp=sharing" urlDisplay="Play Store" imageSrc={image3}></ProjectItem>
         </ul>
       </div>
     </div>
