@@ -194,3 +194,7 @@ Halaman proyek akan menampilkan da ar proyek dalam bentuk grid yang responsif.
 
 #### Halaman Esai
 <img src="assets/images/esai.png">
+
+## Praktikum dan Tugas SEO
+### Hasil Elemen HTML Ketika di Inspect 
+<img src="assets/images/Tugas-SEO.png">

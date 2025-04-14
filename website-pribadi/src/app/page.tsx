@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Image, { StaticImageData } from "next/image";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import image1 from "../../public/images/Foto.jpg";
+import { defaultMetadata } from '../utils/metadata';
 
 export const metadata: Metadata = {
   title: "Tentang Saya",
   description: "Halaman tentang saya.",
   openGraph: {
-    title: "Tentang Saya",
-    description: "Halaman tentang saya.",
+    images: "https://example.com/default-image.jpg",
+    url: "https://example.com",
   },
 };
 

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { defaultMetadata } from '../../utils/metadata';
 
 export const metadata: Metadata = {
   title: "Esai",
   description: "Halaman Esai.",
   openGraph: {
-    title: "Esai",
-    description: "Halaman Esai.",
+    images: "https://example.com/default-image.jpg",
+    url: "https://example.com",
   },
 };
 

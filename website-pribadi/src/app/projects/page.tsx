@@ -3,13 +3,14 @@ import Image, { StaticImageData } from "next/image";
 import image1 from "../../../public/images/project1.png";
 import image2 from "../../../public/images/project2.png";
 import image3 from "../../../public/images/project3.png";
+import { defaultMetadata } from '../../utils/metadata';
 
 export const metadata: Metadata = {
   title: "Proyek",
   description: "Halaman Proyek.",
   openGraph: {
-    title: "Proyek",
-    description: "Halaman Proyek.",
+    images: "https://example.com/default-image.jpg",
+    url: "https://example.com",
   },
 };
 
