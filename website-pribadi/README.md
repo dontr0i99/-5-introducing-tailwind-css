@@ -195,6 +195,31 @@ Halaman proyek akan menampilkan da ar proyek dalam bentuk grid yang responsif.
 #### Halaman Esai
 <img src="assets/images/esai.png">
 
-## Praktikum dan Tugas SEO
-### Hasil Elemen HTML Ketika di Inspect 
+<br>
+<br>
+<br>
+<hr>
+
+# Praktikum dan Tugas SEO
+
+## Update metadata di setiap halaman untuk menyertakan Open Graph Tags.
+
+### File src/components/Layout.tsx
+<img src="assets/images/layout.png">
+
+### Halaman Tentang Saya
+<img src="assets/images/tentang-saya-seo.png">
+
+### Halaman Proyek
+<img src="assets/images/projek-seo.png">
+
+### Halaman Esai
+<img src="assets/images/esai-seo.png">
+
+### Hasil Elemen HTML Website Pribadi Ketika di Inspect 
 <img src="assets/images/Tugas-SEO.png">
+
+## Tugas: Melakukan Pengujian SEO dengan Tools
+
+> Pada tugas ini saya melakukan pengujian SEO dari website polinema.ac.id dengan menggunakan tools SEOptimizer, dan berikut adalah hasilnya:
+> <img src="assets/images/tugas-seo-polinema.png">
